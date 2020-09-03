@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sedona</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    </head>
+<body>
+    <header class="page-header">
+        <h1 class="visually-hidden">
+            Сайт Седоны
+        </h1>
+    <ul class="page-header__menu main-menu">
+        <li class="main-menu__item menu-item">
+            <a class="menu-item__link" href="index.html">Информация</a>
+        </li>
+        <li class="main-menu__item menu-item">
+            <a class="menu-item__link" href="#">Фото и видео</a>
+        </li>
+        <li class="main-menu__item--logo menu-item">
+            <a class="menu-item__link" href="#">
+                <img class="main-menu__logo" src="../test project/img/logo.svg" height="71" width="140" alt="Лого сайта Седона" />
+            </a>
+        </li>
+        <li class="main-menu__item menu-item">
+            <a class="menu-item__link" href="#">Карта штата</a>
+        </li>
+        <li class="main-menu__item menu-item">
+            <a class="menu-item__link" href="catalog.html">Гостиницы</a>
+        </li>
+    </ul>
+    </header>
+    <main class="catalog-main">
+        <section class="catalog-form">
+            <form class="catalog-form__form upper-form">
+                <fieldset class="upper-form__first first-fieldset">
+                    <legend class="first-fieldset__legend">Инфраструктура:</legend>
+                    <ul class="first-fieldset__infra infra-list">
+                        <li class="infra-list__item infra-item">
+                            <input class="infra-item__input" type="checkbox" name="pool" id="pool" checked>
+                            <label class="infra-item__label" for="pool">Бассейн</label> 
+                        </li>
+                        <li class="infra-list__item infra-item">
+                            <input class="infra-item__input" type="checkbox" name="parking" id="parking">
+                            <label class="infra-item__label" for="parking">Парковка</label> 
+                        </li>
+                        <li class="infra-list__item infra-item">
+                            <input class="infra-item__input" type="checkbox" name="wifi" id="wifi">
+                            <label class="infra-item__label" for="wifi">Wi-Fi</label> 
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="upper-form__second second-fieldset">
+                    <legend class="second-fieldset__legend">Тип жилья:</legend>
+                    <ul class="second-fieldset__living living-list">
+                        <li class="living-list__item living-item">
+                            <input class="living-item__input" type="checkbox" name="hotel" id="hotel" checked>
+                            <label class="living-item__label" for="hotel">Отель</label> 
+                        </li>
+                        <li class="living-list__item living-item">
+                            <input class="living-item__input" type="checkbox" name="motel" id="motel" checked>
+                            <label class="living-item__label" for="motel">Мотель</label> 
+                        </li>
+                        <li class="living-list__item living-item">
+                            <input class="living-item__input" type="checkbox" name="apartments" id="apartments" checked>
+                            <label class="living-item__label" for="apartments">Апартаменты</label> 
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    </body>
+    </html>
